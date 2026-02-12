@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Web Application
+
+A modern web application built with HTML, CSS, and Java.
+
+## Project Structure
+
+```
+src/
+├── main/
+│   ├── java/com/example/web/
+│   │   ├── ContactController.java      # Handles contact form processing
+│   │   └── ApplicationService.java     # General application utilities
+│   └── webapp/
+│       ├── index.html                  # Main HTML page
+│       ├── css/
+│       │   └── style.css               # Styling and layout
+│       └── js/
+│           └── script.js               # Client-side interactivity
+```
+
+## Technologies Used
+
+- **HTML5**: Semantic markup and page structure
+- **CSS3**: Responsive design and styling
+- **JavaScript**: Client-side interactivity and form handling
+- **Java**: Backend logic and business processing
+
+## Features
+
+- Responsive design for mobile and desktop
+- Navigation menu with smooth scrolling
+- Hero section with call-to-action
+- Service cards with hover effects
+- Contact form with validation
+- Dynamic content processing with Java backend
 
 ## Getting Started
 
-First, run the development server:
+### For Frontend Development
+Simply open `src/main/webapp/index.html` in a web browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### For Full Stack Development
+1. Compile Java classes:
+   ```bash
+   javac src/main/java/com/example/web/*.java
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Deploy to a servlet container (Tomcat, Jetty, etc.) or create servlets that use the Java classes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## File Descriptions
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **index.html**: Main landing page with sections for home, about, services, and contact
+- **style.css**: Responsive stylesheet with modern design patterns
+- **script.js**: Smooth scrolling, form handling, and animation effects
+- **ContactController.java**: Processes and validates contact form submissions
+- **ApplicationService.java**: Provides utility methods and business logic
 
-## Learn More
+## Future Enhancements
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Database integration for contact submissions
+- User authentication
+- Admin dashboard
+- Email notification system
+- API endpoints for AJAX requests
