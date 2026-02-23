@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body, html {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -13,41 +13,41 @@ body, html {
     transition: background-color 0.3s;
 }
 
-/* Profile Container */
+
 .profile-container {
     width: 100%;
     max-width: 900px;
     margin: 20px;
-    padding: 50px 30px 30px; /* Increased top padding to move everything down */
+    padding: 50px 30px 30px;
     background: #ffffff;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
-/* Header Styling */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #4639f5, #633bf1); /* Green gradient background */
-    padding: 20px 30px; /* Add padding for spacing */
-    border-radius: 15px 15px 0 0; /* Rounded top corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    color: white; /* White text for better contrast */
-    margin-bottom: 30px; /* Space below the header */
-    margin-top: 50px; /* Added top margin to lower the header */
+    background: linear-gradient(135deg, #4639f5, #633bf1); 
+    padding: 20px 30px; 
+    border-radius: 15px 15px 0 0; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    color: white;
+    margin-bottom: 30px; 
+    margin-top: 50px; 
 }
 
-/* Header Title */
+
 .header h1 {
-    font-size: 2.8rem; /* Larger size for prominence */
+    font-size: 2.8rem; 
     font-weight: 600;
     margin: 0;
-    letter-spacing: 1px; /* Slight spacing for visual effect */
+    letter-spacing: 1px; 
 }
 
-/* Theme Toggle Button */
+
 .theme-toggle {
     background: none;
     border: none;
@@ -58,10 +58,10 @@ body, html {
 }
 
 .theme-toggle:hover {
-    color: #f0f4f8; /* Lighter color when hovering */
+    color: #f0f4f8;
 }
 
-/* Profile Card */
+
 .profile-card {
     padding: 20px;
     border-radius: 12px;
@@ -116,7 +116,7 @@ body, html {
     background-color: #45a049;
 }
 
-/* Profile Body */
+
 .profile-body h3 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -145,7 +145,7 @@ ul li {
     margin-bottom: 8px;
 }
 
-/* Social Links */
+
 .social-links h3 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -167,7 +167,7 @@ ul li {
     color: #388E3C;
 }
 
-/* Dark Mode */
+
 body.dark-mode {
     background-color: #121212;
     color: #ffffff;
@@ -201,7 +201,7 @@ body.dark-mode .edit-btn:hover {
     background-color: #666;
 }
 
-/* Modal Styles */
+
 .modal {
     display: none;
     position: fixed;
@@ -232,7 +232,7 @@ body.dark-mode .edit-btn:hover {
     cursor: pointer;
 }
 
-/* Message Style */
+
 .video-message {
     margin-bottom: 20px;
 }
