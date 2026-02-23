@@ -201,22 +201,74 @@ body.dark-mode .edit-btn:hover {
     background-color: #666;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .profile-card {
-        padding: 15px;
-    }
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
 
-    .profile-header {
-        flex-direction: column;
-        align-items: center;
-    }
+.modal-content {
+    background: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
 
-    .profile-image {
-        margin-bottom: 20px;
-    }
+.close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
 
-    .profile-info {
-        text-align: center;
-    }
+/* Message Style */
+.video-message {
+    margin-bottom: 20px;
+}
+
+.video-message h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.video-message p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.play-video-tab {
+    padding: 12px 25px;                    
+    background-color: #007bff;              
+    color: white;                            
+    border: none;                            
+    border-radius: 8px;                      
+    font-size: 1.1rem;                      
+    font-weight: 600;                       
+    cursor: pointer;                        
+    transition: all 0.3s ease;               
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); 
+}
+
+
+.play-video-tab:hover {
+    background-color: #0056b3;              
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3); 
+}
+
+
+.play-video-tab:active {
+    background-color: #003366;              
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
 }
