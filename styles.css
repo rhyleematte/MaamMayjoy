@@ -30,7 +30,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #4639f5, #633bf1); 
+    background: linear-gradient(135deg, #1f67ee, #0025f8); 
     padding: 20px 30px; 
     border-radius: 15px 15px 0 0; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
@@ -269,6 +269,29 @@ body.dark-mode .edit-btn:hover {
 
 
 .play-video-tab:active {
+    background-color: #003366;              
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
+}
+
+.pdf-button {
+    padding: 12px 25px;                    
+    background-color: #007bff;             
+    color: white;                            
+    border: none;                             
+    border-radius: 8px;                     
+    font-size: 1.1rem;                       
+    font-weight: 600;                        
+    cursor: pointer;                        
+    transition: all 0.3s ease;                
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); 
+}
+
+.pdf-button:hover {
+    background-color: #0056b3;              
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+.pdf-button:active {
     background-color: #003366;              
     box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
 }
