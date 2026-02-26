@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function closeModal() {
         modal.style.display = "none";
-        loomVideo.src = "";  
+        loomVideo.src = "";
     }
 
     closeBtn.addEventListener("click", closeModal);
@@ -22,3 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+

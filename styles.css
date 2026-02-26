@@ -1,5 +1,5 @@
-
-body, html {
+body,
+html {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -30,21 +30,21 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #1f67ee, #0025f8); 
-    padding: 20px 30px; 
-    border-radius: 15px 15px 0 0; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(135deg, #1f67ee, #0025f8);
+    padding: 20px 30px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     color: white;
-    margin-bottom: 30px; 
-    margin-top: 50px; 
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 
 .header h1 {
-    font-size: 2.8rem; 
+    font-size: 2.8rem;
     font-weight: 600;
     margin: 0;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
 
 
@@ -249,49 +249,49 @@ body.dark-mode .edit-btn:hover {
 
 
 .play-video-tab {
-    padding: 12px 25px;                    
-    background-color: #007bff;              
-    color: white;                            
-    border: none;                            
-    border-radius: 8px;                      
-    font-size: 1.1rem;                      
-    font-weight: 600;                       
-    cursor: pointer;                        
-    transition: all 0.3s ease;               
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); 
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
 }
 
 
 .play-video-tab:hover {
-    background-color: #0056b3;              
-    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3); 
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
 }
 
 
 .play-video-tab:active {
-    background-color: #003366;              
+    background-color: #003366;
     box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
 }
 
 .pdf-button {
-    padding: 12px 25px;                    
-    background-color: #007bff;             
-    color: white;                            
-    border: none;                             
-    border-radius: 8px;                     
-    font-size: 1.1rem;                       
-    font-weight: 600;                        
-    cursor: pointer;                        
-    transition: all 0.3s ease;                
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); 
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
 }
 
 .pdf-button:hover {
-    background-color: #0056b3;              
+    background-color: #0056b3;
     box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
 }
 
 .pdf-button:active {
-    background-color: #003366;              
+    background-color: #003366;
     box-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
 }
